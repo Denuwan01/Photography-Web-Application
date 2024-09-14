@@ -5,8 +5,8 @@
     --dark: #111;
     --darkGrey: #474b4f;
     --lightGrey: #6b6e70;
-    --lightGreen: #86c232;
-    --darkGreen: #61892f;
+    --lightGreen: orange;
+    --darkGreen: orangered;
     --transition: all 0.5s ease;
 }
 
