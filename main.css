@@ -557,11 +557,11 @@ blockquote span {
 }
 
 .footer-container h2 {
-    color: orangered;
+    color: white;
     font-size: 30px;
     font-weight: 500;
     letter-spacing: 7px;
-    text-align: left;
+    text-align: center;
     padding: 0px 4px 4px;
 }
 
