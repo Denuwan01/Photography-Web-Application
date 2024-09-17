@@ -95,7 +95,7 @@ p {
 
 .home {
     background: linear-gradient(blue, rgba(0, 0, 0, 0.6));
-    min-height: 20vh;
+    min-height: 10vh;
 }
 
 .top-nav a {
@@ -154,8 +154,8 @@ p {
 
 .top-nav ul a {
     position: relative;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 25px;
     text-align: center;
     display: block;
 }
@@ -163,7 +163,7 @@ p {
 .top-nav ul a::after {
     content: "";
     height: 2px;
-    background: var(--lightGreen);
+    background: red;
     position: absolute;
     bottom: -5px;
     left: 50%;
@@ -181,9 +181,10 @@ p {
 }
 
 .about-content img {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
+    margin-top: 3rem;
+    width: 220px;
+    height: 200px;
+    border-radius: 30%;
 }
 
 .about-img {
@@ -195,10 +196,12 @@ p {
 }
 
 .about-content h2 {
-    font-size: 48px;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5rem;
+    font-size: 40px;
     text-align: center;
     margin-bottom: 35px;
-    color: var(--lightGreen);
+    color:rgb(127, 189, 83);
 }
 
 .about-content h3 {
@@ -213,7 +216,7 @@ p {
 
 blockquote {
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
     opacity: 0.9;
     width: 60vw;
     margin: 45px auto 15px auto;
@@ -223,8 +226,8 @@ blockquote {
 blockquote span {
     font-size: 14px;
     text-transform: uppercase;
-    color: var(--darkGreen);
-    font-weight: 300;
+    color: yellowgreen;
+    font-weight: 500;
     letter-spacing: 5px;
     display: block;
 }
@@ -255,8 +258,8 @@ blockquote span {
 }
 
 .social-icons ul a:hover {
-    background: var(--lightGreen);
-    border-color: var(--lightGreen);
+    background: blue;
+    border-color: black;
 }
 
 /********************* End of Header ***********************/
